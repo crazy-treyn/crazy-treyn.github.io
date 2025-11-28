@@ -352,6 +352,13 @@ main {
   margin-bottom: 0;
 }
 
+/* Hide timeline elements for education section */
+.education-timeline::before,
+.education-timeline .experience-item::before,
+.education-timeline .experience-item::after {
+  display: none;
+}
+
 .experience-header {
   display: flex;
   justify-content: space-between;

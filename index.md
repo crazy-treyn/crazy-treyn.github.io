@@ -150,12 +150,14 @@ title: Trey Udy | Senior Data Engineer
   <section class="section" id="education">
     <p class="section-label">Education</p>
     <h2>Education</h2>
-    <div class="experience-item">
-      <div class="experience-header">
-        <h3>Associate of Applied Science, Software Development</h3>
-        <span class="date">2015</span>
+    <div class="experience-timeline education-timeline">
+      <div class="experience-item">
+        <div class="experience-header">
+          <h3>Associate of Applied Science, Software Development</h3>
+          <span class="date">2015</span>
+        </div>
+        <p class="experience-company">Southwestern Oregon Community College</p>
       </div>
-      <p class="experience-company">Southwestern Oregon Community College</p>
     </div>
   </section>
 
