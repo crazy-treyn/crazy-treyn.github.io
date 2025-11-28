@@ -1,0 +1,25 @@
+# Site settings
+title: Trey Udy
+description: Senior Data Engineer | BI Specialist
+url: "https://crazy-treyn.github.io"
+baseurl: ""
+
+# Author info
+author:
+  name: Trey Udy
+  email: trey.udy@outlook.com
+  location: Edmond, OK
+
+# Social links
+social:
+  github: crazy-treyn
+  linkedin: treyudy
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
