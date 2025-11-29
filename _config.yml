@@ -19,6 +19,17 @@ social:
 markdown: kramdown
 permalink: /blog/:title/
 
+kramdown:
+  toc_levels: "2..3"
+  auto_ids: true
+
+# Pagination
+plugins:
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
 # Exclude from build
 exclude:
   - README.md
