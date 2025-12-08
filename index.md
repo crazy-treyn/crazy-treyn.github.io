@@ -25,7 +25,7 @@ title: Trey Udy | Senior Data Engineer
     <div class="hero-ctas">
       <a href="mailto:{{ site.author.email }}" class="btn btn-primary">Email</a>
       <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
-      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
     </div>
   </section>
 
