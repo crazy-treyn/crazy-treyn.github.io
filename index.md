@@ -10,15 +10,15 @@ title: Trey Udy | Senior Data Engineer
     <p class="location">Oklahoma City, OK</p>
 
     <p class="summary">
-      I help organizations turn complex data ecosystems into reliable, production-ready analytics.
-      I stay hands-on with Fabric, Python, dbt, and Power BI, while working directly with business
-      stakeholders to solve high-impact problems, not just build technically clever systems.
+      I build data platforms and analytical solutions that matter. Not reports that get glanced at, real solutions that drive
+      decisions. I figure out what stakeholders actually need, then deliver: architecture, pipelines,
+      data models, BI. Efficient. Scalable. Actually used. And when things get stuck, I unstick them.
     </p>
 
     <div class="hero-highlights">
       <span class="hero-highlight">10+ years in analytics &amp; BI</span>
       <span class="hero-highlight">Principal consultant &amp; team lead (11 consultants)</span>
-      <span class="hero-highlight">Fabric, Power BI, Databricks, modern data stacks</span>
+      <span class="hero-highlight">Microsoft Fabric, Power BI, Databricks, AWS modern data stacks</span>
       <span class="hero-highlight">Pragmatic GenAI where it moves the needle</span>
     </div>
 
@@ -69,7 +69,7 @@ title: Trey Udy | Senior Data Engineer
         <h3>Code &amp; Automation</h3>
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
-          <span class="skill-tag">T-SQL</span>
+          <span class="skill-tag">SQL</span>
           <span class="skill-tag">Git</span>
           <span class="skill-tag">CI/CD</span>
           <span class="skill-tag">REST APIs</span>
