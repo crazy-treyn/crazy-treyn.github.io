@@ -6,7 +6,7 @@ title: Trey Udy | Senior Data Engineer
 <div class="container">
   <section class="hero" id="top">
     <h1>Trey Udy</h1>
-    <p class="title">Senior Data Engineer | BI Specialist</p>
+    <p class="title">Senior Data Engineer, Data & AI</p>
     <p class="location">Oklahoma City, OK</p>
 
     <p class="summary">
@@ -16,10 +16,10 @@ title: Trey Udy | Senior Data Engineer
     </p>
 
     <div class="hero-highlights">
-      <span class="hero-highlight">10+ years in analytics &amp; BI</span>
-      <span class="hero-highlight">Principal consultant &amp; team lead (11 consultants)</span>
-      <span class="hero-highlight">Microsoft Fabric, Power BI, Databricks, AWS modern data stacks</span>
-      <span class="hero-highlight">Pragmatic GenAI where it moves the needle</span>
+      <span class="hero-highlight">10+ years in analytics &amp; data engineering</span>
+      <span class="hero-highlight">Team lead &amp; mentor (6 consultants)</span>
+      <span class="hero-highlight">Microsoft Fabric, Databricks, AWS, Power BI</span>
+      <span class="hero-highlight">Pragmatic AI/ML where it moves the needle</span>
     </div>
 
     <div class="hero-ctas">
@@ -34,35 +34,35 @@ title: Trey Udy | Senior Data Engineer
     <h2>What I Build</h2>
     <div class="skills-grid">
       <div class="skill-category">
-        <h3>Data Pipelines</h3>
-        <div class="skill-tags">
-          <span class="skill-tag">PySpark</span>
-          <span class="skill-tag">Spark SQL</span>
-          <span class="skill-tag">Azure Data Factory</span>
-          <span class="skill-tag">Fabric Data Factory</span>
-          <span class="skill-tag">AWS Glue</span>
-          <span class="skill-tag">dbt</span>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h3>Analytics &amp; BI</h3>
-        <div class="skill-tags">
-          <span class="skill-tag">Power BI (SME)</span>
-          <span class="skill-tag">DAX</span>
-          <span class="skill-tag">Direct Lake</span>
-          <span class="skill-tag">Semantic Models</span>
-          <span class="skill-tag">QuickSight</span>
-        </div>
-      </div>
-      <div class="skill-category">
         <h3>Data Platforms</h3>
         <div class="skill-tags">
           <span class="skill-tag">Microsoft Fabric</span>
           <span class="skill-tag">Databricks</span>
           <span class="skill-tag">Redshift</span>
-          <span class="skill-tag">Azure Synapse</span>
-          <span class="skill-tag">ADLS</span>
+          <span class="skill-tag">Delta Lake</span>
+          <span class="skill-tag">Iceberg</span>
           <span class="skill-tag">S3</span>
+          <span class="skill-tag">ADLS</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Data Pipelines</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Spark</span>
+          <span class="skill-tag">dbt</span>
+          <span class="skill-tag">Azure Data Factory</span>
+          <span class="skill-tag">Fabric Data Factory</span>
+          <span class="skill-tag">AWS Glue</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Analytics &amp; BI</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">DAX</span>
+          <span class="skill-tag">Power Query</span>
+          <span class="skill-tag">Semantic Models</span>
+          <span class="skill-tag">QuickSight</span>
         </div>
       </div>
       <div class="skill-category">
@@ -70,18 +70,42 @@ title: Trey Udy | Senior Data Engineer
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
           <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Go</span>
           <span class="skill-tag">Git</span>
           <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">Docker</span>
           <span class="skill-tag">REST APIs</span>
         </div>
       </div>
       <div class="skill-category">
-        <h3>Emerging Tech</h3>
+        <h3>AI/ML</h3>
         <div class="skill-tags">
-          <span class="skill-tag">Generative AI</span>
+          <span class="skill-tag">Agentic AI/LLMs</span>
           <span class="skill-tag">AWS Bedrock</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">CUDA</span>
           <span class="skill-tag">BERTopic</span>
-          <span class="skill-tag">Agentic Workflows</span>
+          <span class="skill-tag">marimo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certifications">
+    <p class="section-label">Credentials</p>
+    <h2>Certifications</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Microsoft Fabric</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">DP-700 Fabric Data Engineer</span>
+          <span class="skill-tag">DP-600 Fabric Analytics Engineer</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Power BI</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">PL-300 Power BI Data Analyst</span>
         </div>
       </div>
     </div>
@@ -93,56 +117,106 @@ title: Trey Udy | Senior Data Engineer
     <div class="experience-timeline">
       <div class="experience-item">
         <div class="experience-header">
-          <h3>Principal Consultant &amp; Practice Team Lead, Data &amp; AI</h3>
-          <span class="date">2023 — Present</span>
+          <h3>Senior Data Engineer, Data &amp; AI</h3>
+          <span class="date">05/2019 — Present</span>
         </div>
         <p class="experience-company">Lantern Studios</p>
         <ul>
-          <li>Built PySpark pipelines, Fabric Data Warehouses, and Direct Lake semantic models for enterprise clients</li>
-          <li>Developed end-to-end semantic analysis solution using Python, DuckDB, polars, AWS Bedrock, and BERTopic for a large e-commerce client</li>
-          <li>Implemented CI/CD pipelines and source control workflows for data projects</li>
-          <li>Manage a team of 11 data consultants while staying hands-on with the hardest technical problems</li>
-          <li>Led technical pre-sales that established the practice as a top revenue performer</li>
+          <li>Architected greenfield Microsoft Fabric Lakehouse for logistics client — unified 5 M&amp;A companies, reducing manual analyst reporting from weeks to hours</li>
+          <li>Replaced manual Excel workflows with self-service Power BI for energy client — semantic models over 5B+ rows, cutting 100+ hours/month of analyst labor</li>
+          <li>Built semantic analysis pipeline using marimo, DuckDB, BERTopic, PyTorch, CUDA, and Claude Haiku via AWS Bedrock — delivering weekly product insights on GenAI chatbot usage</li>
+          <li>Trained and managed team of 6 Data &amp; AI consultants — 2 promoted to Senior and Principal respectively</li>
+          <li>Pre-sales technical lead on dozens of Data &amp; AI deals — resulting in $2M+ company revenue</li>
         </ul>
       </div>
       <div class="experience-item">
         <div class="experience-header">
-          <h3>Power BI Solution Architect</h3>
-          <span class="date">2019 — 2023</span>
+          <h3>Senior Business Intelligence Analyst</h3>
+          <span class="date">11/2018 — 05/2019</span>
         </div>
-        <p class="experience-company">Marquam Group</p>
+        <p class="experience-company">Insitu (A Boeing Company)</p>
         <ul>
-          <li>Built enterprise-scale Power BI deployments across dozens of industries</li>
-          <li>Developed complex DAX calculations and semantic models for high-visibility client reports</li>
-          <li>Go-to engineer for the toughest Power BI technical challenges the consultancy faced</li>
-          <li>Led Power BI practice: mentoring junior developers, technical sales, creating SOWs, and hiring</li>
-        </ul>
-      </div>
-      <div class="experience-item">
-        <div class="experience-header">
-          <h3>Sr Business Intelligence Analyst</h3>
-          <span class="date">2018 — 2019</span>
-        </div>
-        <p class="experience-company">Insitu</p>
-        <ul>
-          <li>Trained 70+ analysts and developers on Power BI development and deployment</li>
-          <li>Architected and deployed Power BI Report Server—still in use by the organization</li>
-          <li>Lead BI developer for Finance, Operations, and Manufacturing business units</li>
-          <li>Collaborated with stakeholders to gather functional and technical requirements</li>
+          <li>Trained 70+ analysts, developers, and leaders on Power BI development and deployment</li>
+          <li>Architected Power BI Report Server environment serving 700+ monthly users with custom usage tracking</li>
+          <li>Built high-visibility reports for Finance, Operations, and Manufacturing business units</li>
         </ul>
       </div>
       <div class="experience-item">
         <div class="experience-header">
           <h3>Business Intelligence Consultant</h3>
-          <span class="date">2016 — 2018</span>
+          <span class="date">06/2016 — 11/2018</span>
         </div>
         <p class="experience-company">Marquam Group</p>
         <ul>
-          <li>Built enterprise Power BI reports for healthcare, F&amp;B distribution, advertising, and government</li>
-          <li>SQL Server development: data modeling, stored procedures, table-valued functions, SQL Agent jobs</li>
-          <li>Created Power BI solutions leveraging Azure SQL DB, Data Lake, Data Factory, Analysis Services, and Power BI Embedded</li>
-          <li>Facilitated requirements sessions with C-level executives through technical analysts</li>
+          <li>Replaced legacy SharePoint/SSRS with self-service Power BI for national veterinary chain — 3,000+ users across hundreds of hospitals</li>
+          <li>Delivered Executive Dashboard for Pacific Northwest hospital chain — mobile LOS metrics for leadership</li>
+          <li>Built unified enterprise Power BI semantic model for food production company — 50+ tables, 100+ measures, dozens of reports</li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <p class="section-label">Selected Work</p>
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>semantic-analysis-pipeline</h3>
+        <p>
+          End-to-end semantic analysis solution for understanding user intents
+          from an internal GenAI chat application. Incremental loading pattern
+          throughout for performance.
+        </p>
+        <p class="project-impact">
+          Reduced analyst effort from weeks of manual review to minutes,
+          delivering weekly critical insights to product team.
+        </p>
+        <div class="project-tech">
+          <span>marimo</span>
+          <span>DuckDB</span>
+          <span>BERTopic</span>
+          <span>PyTorch</span>
+          <span>CUDA</span>
+          <span>AWS Bedrock</span>
+          <span>Claude Haiku</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>fabric-lakehouse-m&a</h3>
+        <p>
+          Greenfield Microsoft Fabric Lakehouse implementation for logistics client
+          unifying data across 5 companies acquired through M&amp;A activity.
+        </p>
+        <p class="project-impact">
+          Enabled company-wide visibility that wasn't even possible before —
+          manual reporting reduced from weeks to hours.
+        </p>
+        <div class="project-tech">
+          <span>Fabric</span>
+          <span>Lakehouse</span>
+          <span>PySpark</span>
+          <span>Power BI</span>
+          <span>Direct Lake</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>energy-semantic-model</h3>
+        <p>
+          Self-service Power BI solution replacing manual Excel workflows
+          for energy client, with semantic models spanning 5B+ rows.
+        </p>
+        <p class="project-impact">
+          Cut 100+ hours/month of analyst labor while improving data quality
+          and enabling faster decision-making.
+        </p>
+        <div class="project-tech">
+          <span>Power BI</span>
+          <span>DAX</span>
+          <span>Semantic Models</span>
+          <span>5B+ rows</span>
+        </div>
       </div>
     </div>
   </section>
@@ -157,69 +231,6 @@ title: Trey Udy | Senior Data Engineer
           <span class="date">2015</span>
         </div>
         <p class="experience-company">Southwestern Oregon Community College</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="projects">
-    <p class="section-label">Selected Work</p>
-    <h2>Featured Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>E-commerce Semantic Analysis Pipeline</h3>
-        <p>
-          Built an end-to-end semantic analysis solution to understand user intents
-          from an internal GenAI chat application, combining topic modeling and LLMs
-          with a modern analytics stack.
-        </p>
-        <p class="project-impact">
-          Impact: Reduced analyst effort to understand user intents from weeks of manual review
-          to minutes, enabling faster product and support decisions.
-        </p>
-        <div class="project-tech">
-          <span>Python</span>
-          <span>DuckDB</span>
-          <span>polars</span>
-          <span>AWS Bedrock</span>
-          <span>BERTopic</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <h3>Microsoft Fabric Data Platforms</h3>
-        <p>
-          Delivered multiple Fabric-based data platforms combining Lakehouses, Warehouses,
-          pipelines, notebooks, stored procedures, dbt, and data agents to unify siloed systems.
-        </p>
-        <p class="project-impact">
-          Impact: Enabled cross-system reporting that previously required hours of manual analyst
-          work and was error-prone, and unlocked views that weren't feasible even manually.
-        </p>
-        <div class="project-tech">
-          <span>Fabric</span>
-          <span>Lakehouse</span>
-          <span>Warehouse</span>
-          <span>PySpark</span>
-          <span>dbt</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <h3>Enterprise Power BI Modernization</h3>
-        <p>
-          Led enterprise migrations from legacy reporting to modern Power BI platforms serving
-          thousands of users across operational business units.
-        </p>
-        <p class="project-impact">
-          Impact: Moved reporting from once-a-day static PDFs to modern analytics refreshed
-          throughout the day, driving a stronger data-driven culture across the organization.
-        </p>
-        <div class="project-tech">
-          <span>Power BI</span>
-          <span>DAX</span>
-          <span>Semantic Models</span>
-          <span>CI/CD</span>
-        </div>
       </div>
     </div>
   </section>

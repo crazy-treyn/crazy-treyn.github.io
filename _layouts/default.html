@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   {% include header.html %}
@@ -38,6 +38,24 @@
         clusterBkg: '#1a1a1a',
         titleColor: '#e5e5e5',
         edgeLabelBackground: '#1a1a1a'
+      }
+    });
+
+    // Vim-style j/k scrolling
+    document.addEventListener('keydown', (e) => {
+      // Don't interfere with input fields
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      // Don't interfere with modifier keys
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      
+      const scrollAmount = 150;
+      if (e.key === 'j') {
+        e.preventDefault();
+        window.scrollBy({ top: scrollAmount, behavior: 'smooth' });
+      }
+      if (e.key === 'k') {
+        e.preventDefault();
+        window.scrollBy({ top: -scrollAmount, behavior: 'smooth' });
       }
     });
   </script>
